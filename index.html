@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Генератор даних</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Генератор даних</h1>
+    <div class="timeContainer">
+        <label for="interval" style="text-align: center;">Інтервал (мс):</label>
+        <div class="time">
+            <input type="number" id="interval" min="1" value="1000">
+        </div>
+    </div>
+    <div class="buttons">
+        <button id="startButton">Почати генерацію</button>
+        <button id="stopButton">Зупинити генерацію</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 20%; text-align: center;">Номер</th>
+                <th style="width: 80%; text-align: center;">Випадкові дані</th>
+            </tr>
+        </thead>
+        <tbody id="dataRows"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

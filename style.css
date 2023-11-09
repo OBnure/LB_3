@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #00008B;
+    color: white;
+}
+
+tr.even {
+    background-color: #87CEFA;
+}
+
+tr.odd {
+    background-color: #0000CD;
+    color: white;
+}
+
+.time {
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.timeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
